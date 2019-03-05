@@ -1,0 +1,15 @@
+.section4{
+    display:flex;
+    grid-row: 7;
+    grid-column: 1/8;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0,0,0,0.5);
+    color:rgb(255,255,255);
+
+}
+@media only screen and (max-width: 900px) {
+  .section4 {
+    grid-row: 6;
+  }
+}

@@ -1,33 +1,19 @@
-.App {
-  text-align: center;
+body{
+  background-image: url("http://damienledoux.com/wp-content/uploads/2014/07/colorful-hd-wallpaper-with-the-galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.gridContainer{
+  display: grid;
+  height: 150vh;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: 10% 15% 15% 15% 15% 15% 15%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 900px) {
+  .gridContainer {
+    background-image: none;
+    grid-template-columns: 15% 1fr 20%;
+    grid-template-rows:15% 10% 13% 1fr 13% 20%;
   }
 }
