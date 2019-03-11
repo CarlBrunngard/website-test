@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import './Header.css';
+import './Navbar.css';
+import { NavLink, Link } from "react-router-dom";
 
 
 
-class Header extends Component {
+
+class Navbar extends Component {
     render() {
         return (
             <div className="section1">
                 <ul className="navbarOptions">
-                    <li><a href="">Home</a></li>
+                    <li><NavLink to="/">Home</NavLink></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Team</a></li>
                     <li><a href="">Contact</a></li>
@@ -18,4 +20,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default Navbar;

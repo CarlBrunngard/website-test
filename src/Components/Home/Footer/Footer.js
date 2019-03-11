@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Header4.css';
+import './Footer.css';
 
 
 
-class Header4 extends Component {
+class Footer extends Component {
     render() {
         return (
             <div className="section4">
@@ -13,4 +13,4 @@ class Header4 extends Component {
     }
 }
 
-export default Header4;
+export default Footer;

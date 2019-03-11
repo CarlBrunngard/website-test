@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Header2.css';
+import './Content.css';
 
 
 
-class Header2 extends Component {
+class Content extends Component {
     render() {
         return (
             <div className="section2">
@@ -30,4 +30,4 @@ class Header2 extends Component {
     }
 }
 
-export default Header2;
+export default Content;
