@@ -1,0 +1,5 @@
+.section6{
+    grid-row: 3/6;
+    grid-column: 1/8;
+    background-color: blue;
+}
