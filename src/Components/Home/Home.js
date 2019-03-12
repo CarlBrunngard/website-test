@@ -1,20 +1,31 @@
 import React, { Component } from 'react';
-import './App.css';
-import { BrowserRouter, Route } from "react-router-dom"
-import Navbar from "./Navbar/Navbar";
-import Content from './Content/Content';
-import Footer from './Footer/Footer';
+import './Home.css';
+
+
 
 class Home extends Component {
     render() {
         return (
-            <BrowserRouter>
-                <div className="gridContainer">
-                    <Navbar />
-                    <Content />
-                    <Footer />
+            <div className="section2">
+                <div className="containerText">
+                    <marquee>Css Grid layout</marquee>
                 </div>
-            </BrowserRouter>
+                <div className="container1">
+
+                </div>
+                <div className="container2">
+
+                </div>
+                <div className="container3">
+
+                </div>
+                <div className="container4">
+
+                </div>
+                <div className="container5">
+
+                </div>
+            </div>
         );
     }
 }
