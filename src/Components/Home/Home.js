@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import './Home.css';
 
 
-
 class Home extends Component {
     render() {
         return (
             <div className="section2">
                 <div className="containerText">
-                    <marquee>Css Grid layout</marquee>
                 </div>
                 <div className="container1">
 
@@ -17,13 +15,10 @@ class Home extends Component {
 
                 </div>
                 <div className="container3">
-
+                    <h1>dwdawopdkawpodkawpdoawkdpowdkwopd</h1>
                 </div>
                 <div className="container4">
-
-                </div>
-                <div className="container5">
-
+                    <h1>doaiwjdoiwajdaoidjwdoiadjwaiodjawoidawjidojd</h1>
                 </div>
             </div>
         );

@@ -1,5 +1,6 @@
+
 body{
-  background-image: url("http://damienledoux.com/wp-content/uploads/2014/07/colorful-hd-wallpaper-with-the-galaxy.jpg");
+  background-image: url("firewatch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -8,7 +9,7 @@ body{
   display: grid;
   height: 150vh;
   grid-template-columns: repeat(7,1fr);
-  grid-template-rows: 10% 15% 15% 15% 15% 15% 15%;
+  grid-template-rows: 7% 15% 15% 15% 15% 15% 18%;
 }
 @media only screen and (max-width: 900px) {
   .gridContainer {
