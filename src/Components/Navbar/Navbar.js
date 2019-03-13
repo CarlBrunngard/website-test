@@ -11,7 +11,7 @@ class Navbar extends Component {
             <div className="section1">
                 <h1 className="icon1">©</h1>
                 <ul className="navbarOptions">
-                    <li><NavLink className="homeNav" to="/Home">Home</NavLink></li>
+                    <li><NavLink className="homeNav" to="/">Home</NavLink></li>
                     <li><NavLink to="/About">About</NavLink></li>
                     <li><NavLink to="/Team">Team</NavLink></li>
                     <li><NavLink to="/Contact">Contact</NavLink></li>

@@ -14,7 +14,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="gridContainer">
           <Navbar />
-          <Route path="/Home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Team" component={Team} />
           <Route path="/Contact" component={Contact} />

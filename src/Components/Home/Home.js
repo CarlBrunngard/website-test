@@ -15,10 +15,12 @@ class Home extends Component {
 
                 </div>
                 <div className="container3">
-                    <h1>dwdawopdkawpodkawpdoawkdpowdkwopd</h1>
+                    <h1>Very Awesome Cool Stuff Yes</h1>
+                    <p>With very cool text below and stuff</p>
                 </div>
                 <div className="container4">
-                    <h1>doaiwjdoiwajdaoidjwdoiadjwaiodjawoidawjidojd</h1>
+                    <h1>Very Cool Image Picture No</h1>
+                    <p>With very cool text below and stuff</p>
                 </div>
             </div>
         );
