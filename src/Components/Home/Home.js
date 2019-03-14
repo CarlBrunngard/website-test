@@ -6,8 +6,6 @@ class Home extends Component {
     render() {
         return (
             <div className="section2">
-                <div className="containerText">
-                </div>
                 <div className="container1">
 
                 </div>
