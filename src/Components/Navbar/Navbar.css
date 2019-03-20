@@ -8,7 +8,7 @@
 }
 .navbarOptions{
     padding: 0;
-    min-width: 100%;
+    min-width: 70%;
 }
 .navbarOptions li{
     display: inline-block;
@@ -22,12 +22,13 @@
     text-decoration: none;
 }
 .homeNav{
-    padding-left: 2em;
+    padding-left: 1em;
 }
 .icon1 {
     position: absolute;
+    left: 70px;
     margin: 0;
-    font-size: 6em;
+    font-size: 5.5em;
 		-webkit-animation: rotation 2s infinite linear;
 }
 
